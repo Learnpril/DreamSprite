@@ -375,3 +375,53 @@ pre,
   border-top: 1px solid #1a1a2e;
   margin-top: 2rem;
 }
+
+/* --------------------------------------------------------------------------
+   13. Back to Dashboard Button (in pagination area)
+   -------------------------------------------------------------------------- */
+.pagination-links {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 0.5rem;
+}
+
+.pagination-links > * {
+  flex: 1;
+  min-width: 0;
+}
+
+.ds-back-to-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--sl-color-white);
+  font-size: 0.85rem;
+  gap: 0.25rem;
+  order: -1;
+  transition: border-color 0.3s ease;
+}
+
+.ds-back-to-dashboard::before {
+  content: '🪶';
+  font-size: 1.2rem;
+}
+
+.ds-back-to-dashboard:hover {
+  border-color: var(--sl-color-accent);
+  text-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .pagination-links {
+    flex-wrap: nowrap !important;
+  }
+  .pagination-links > * {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+}

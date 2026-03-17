@@ -1,0 +1,115 @@
+﻿---
+title: Guides Dashboard
+description: Your hub for AI game art guides - pick a section and jump in.
+---
+
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+Hey there! 🪶 Welcome to the hub - your chill starting point for turning ideas into AI game art, sprites, 3D assets, and more. Pick a section below and jump in. No fluff, just practical walkthroughs based on what actually works.
+
+Start with the basics if you're new, or skip around for quick lookups. Everything's casual, step-by-step, with real-world tips.
+
+## Getting Started
+
+<CardGrid>
+  <LinkCard
+    title="🚀 Starting Guide"
+    href="/guides/starting-guide/"
+    description="Brand new? Start here - pipeline overview, tools you'll need, and mindset tips."
+  />
+  <LinkCard
+    title="🎨 Midjourney Setup"
+    href="/guides/midjourney-setup/"
+    description="Cloud-based kickoff - signing up, first prompts, and organizing your gens."
+  />
+  <LinkCard
+    title="🖥️ ComfyUI Setup"
+    href="/guides/comfyui-setup/"
+    description="Local powerhouse - install once, generate forever. Portable & manual options."
+  />
+</CardGrid>
+
+## Components of AI Pipeline
+
+<CardGrid>
+  <LinkCard
+    title="🧠 Models"
+    href="/guides/models/"
+    description="Checkpoints are the soul - anime, realistic, furry, 3D/CGI styles and where to grab them."
+  />
+  <LinkCard
+    title="✍️ Prompting"
+    href="/guides/prompting/"
+    description="Write prompts that actually work - weights, styles, negatives, reverse-engineering tips."
+  />
+  <LinkCard
+    title="�- Embeddings"
+    href="/guides/embeddings/"
+    description="Textual inversions & concepts - quick style boosters without full LoRAs."
+  />
+  <LinkCard
+    title="🎭 LoRAs"
+    href="/guides/loras/"
+    description="Lightweight add-ons for characters, styles, poses - loading, strength tuning, stacking."
+  />
+  <LinkCard
+    title="🎨 VAE"
+    href="/guides/vae/"
+    description="Fixing color/contrast weirdness - baked-in vs custom, when to swap."
+  />
+  <LinkCard
+    title="🕹️ ControlNet"
+    href="/guides/controlnet/"
+    description="Pose, lineart, depth, canny - locking composition with OpenPoseXL2 & DWPose."
+  />
+</CardGrid>
+
+## 2D Asset Generation
+
+<CardGrid>
+  <LinkCard
+    title="🖼️ Midjourney 2D"
+    href="/guides/midjourney-2d/"
+    description="Realism, anime/Niji mode, animation tricks - frame consistency & motion prompts."
+  />
+  <LinkCard
+    title="🎮 ComfyUI 2D Guide"
+    href="/guides/comfyui-2d/"
+    description="Nodes intro, text-to-image, image-to-image, LoRA setup - the full 2D workflow."
+  />
+</CardGrid>
+
+## 3D Asset Generation
+
+<CardGrid>
+  <LinkCard
+    title="🧊 Blender Setup"
+    href="/guides/blender-setup/"
+    description="Importing .obj/.glb, UV editing, rigging basics, and export tips."
+  />
+  <LinkCard
+    title="�-️ ComfyUI 3D"
+    href="/guides/comfyui-3d/"
+    description="Tripo3D, Hunyuan3D, image-to-3D workflows - the best path to game-ready meshes."
+  />
+</CardGrid>
+
+## Extras
+
+<CardGrid>
+  <LinkCard
+    title="🎨 Luddite Guide (Non-AI Art)"
+    href="/guides/luddite-guide/"
+    description="Balance AI with traditional skills - real media, digital art, training your own style."
+  />
+  <LinkCard
+    title="📝 Maximize Your Notetaking"
+    href="/guides/notetaking/"
+    description="Markdown, Obsidian, blogging your workflows - document your experiments."
+  />
+  <LinkCard
+    title="🔧 Common Nodes in ComfyUI"
+    href="/guides/common-nodes/"
+    description="Reference sheet - loaders, KSampler, CLIP, LoRA nodes, OpenPose editor and more."
+  />
+</CardGrid>
