@@ -2,7 +2,7 @@
 title: Getting Started
 description: Learn how to set up DreamSprite and start creating game assets.
 ---
-
+WELCOME TO THE MACHINE
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your system:
