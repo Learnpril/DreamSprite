@@ -15,8 +15,6 @@ Unlike LoRAs or ControlNets (which modify the base), checkpoints define the **fo
 - **Hugging Face** (official bases & large experimental models): https://huggingface.co/models?other=stable-diffusion
   Click "Files and versions" → download the main `.safetensors` file.
 
-**Tip**: Always use **fp16** or **pruned** versions to save VRAM on your 3090. Create folders like `checkpoints/anime/`, `checkpoints/realistic/`, `checkpoints/3d/` for organization.
-
 ## Popular Checkpoints by Style (March 2026)
 
 ### Anime / 2D / 2.5D
