@@ -238,10 +238,11 @@ pre,
   background-repeat: no-repeat;
 }
 
-/* Ensure text content sits above the background */
+/* Ensure text content sits above the background, with dark purple glow for readability */
 .hero .sl-flex {
   position: relative;
   z-index: 1;
+  text-shadow: 0 0 30px rgba(15, 15, 26, 0.9), 0 0 60px rgba(15, 15, 26, 0.7), 0 0 90px rgba(26, 26, 46, 0.5);
 }
 
 .hero::before {
