@@ -45,7 +45,7 @@
     - Run `npm run build` and confirm `dist/` contains static HTML files
     - _Requirements: 8.2, 1.3_
 
-- [ ] 4. Checkpoint
+- [x] 4. Checkpoint
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 5. Set up testing infrastructure and write tests
