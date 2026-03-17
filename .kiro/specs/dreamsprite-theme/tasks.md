@@ -52,13 +52,13 @@
     - Apply lavender-tinted syntax highlighting adjustments
     - _Requirements: 4.1, 4.3_
 
-- [ ] 4. Update landing page hero and footer
-  - [ ] 4.1 Update `src/content/docs/index.mdx` with new hero tagline and gradient styling
+- [x] 4. Update landing page hero and footer
+  - [x] 4.1 Update `src/content/docs/index.mdx` with new hero tagline and gradient styling
     - Change hero tagline to "Dreaming up game art with AI"
     - Add CSS for dreamy gradient background on the hero section
     - _Requirements: 3.1, 3.2, 3.3_
 
-  - [ ] 4.2 Add footer with credits and social links
+  - [x] 4.2 Add footer with credits and social links
     - Add footer content with credits for Astro, Obsidian, and Netlify
     - Add social links styled with accent colors
     - Add constellation decorative pattern to footer via CSS
