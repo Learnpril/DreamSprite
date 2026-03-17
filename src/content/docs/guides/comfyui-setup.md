@@ -10,6 +10,6 @@ Local powerhouse time - install once, generate forever.
 - Portable NVIDIA version (easiest for most)
 - Manual install if you want customization
 - First launch & basic test workflow
-- VRAM tips for 3090 users
+- VRAM tips
 
 _Content coming soon - check back!_
