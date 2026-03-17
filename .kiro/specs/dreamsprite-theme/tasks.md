@@ -8,12 +8,12 @@
     - Set body font-size to ~1.05rem (17px) and line-height to 1.7
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 2.1, 2.2, 2.3, 2.4_
 
-  - [ ]\* 1.2 Write property test: WCAG AA contrast ratio for all palette pairings
+  - [x] 1.2 Write property test: WCAG AA contrast ratio for all palette pairings
     - **Property 1: WCAG AA contrast ratio for all palette pairings**
     - **Validates: Requirements 8.1**
     - Generate random pairings from the theme's text/background color sets and verify each meets 4.5:1 minimum contrast ratio
 
-  - [ ]\* 1.3 Write property test: CSS custom property round-trip consistency
+  - [x] 1.3 Write property test: CSS custom property round-trip consistency
     - **Property 2: CSS custom property round-trip consistency**
     - **Validates: Requirements 11.2, 11.3**
     - Generate random valid CSS custom property names and values, serialize to string, parse back, and verify equivalence
@@ -25,29 +25,29 @@
     - Keep existing sidebar configuration intact
     - _Requirements: 2.1, 2.3, 11.1_
 
-- [ ] 3. Style decorative effects and component overrides
-  - [ ] 3.1 Add starry background overlay and heading glow effects to custom CSS
+- [x] 3. Style decorative effects and component overrides
+  - [x] 3.1 Add starry background overlay and heading glow effects to custom CSS
     - Add `body::before` pseudo-element with low-opacity radial-gradient dots creating a faint star field
     - Add text-shadow glow on h1/h2 headings using the lavender-purple accent color
     - Add gentle glow transition on hover for links, buttons, and cards
     - _Requirements: 7.1, 7.2_
 
-  - [ ] 3.2 Add callout/aside parchment styling to custom CSS
+  - [x] 3.2 Add callout/aside parchment styling to custom CSS
     - Style Starlight's `.starlight-aside` with gold border (#D4AF37), subtle warm-tinted background
     - Add hover glow effect on callout boxes
     - _Requirements: 5.1, 5.2, 5.3_
 
-  - [ ] 3.3 Add image styling to custom CSS
+  - [x] 3.3 Add image styling to custom CSS
     - Center content images with max-width 90%
     - Add subtle lavender border/glow around images
     - _Requirements: 9.1, 9.2_
 
-  - [ ] 3.4 Add sidebar styling overrides to custom CSS
+  - [x] 3.4 Add sidebar styling overrides to custom CSS
     - Style sidebar title with Playfair Display serif font
     - Set sidebar link colors to #B0B0D8 default, #C9A0DC on hover
     - _Requirements: 6.1, 6.2, 6.3_
 
-  - [ ] 3.5 Add code block styling enhancements to custom CSS
+  - [x] 3.5 Add code block styling enhancements to custom CSS
     - Ensure code blocks use #1A1A2E background
     - Apply lavender-tinted syntax highlighting adjustments
     - _Requirements: 4.1, 4.3_
