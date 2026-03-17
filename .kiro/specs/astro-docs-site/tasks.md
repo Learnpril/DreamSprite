@@ -17,27 +17,31 @@
     - Run `npm run build` and confirm `dist/` directory is produced with zero errors
     - _Requirements: 1.3_
 
-- [ ] 2. Create documentation content
-  - [ ] 2.1 Create the landing page at `src/content/docs/index.mdx`
+- [x] 2. Create documentation content
+  - [x] 2.1 Create the landing page at `src/content/docs/index.mdx`
     - Add hero section with DreamSprite title, tagline, and call-to-action button linking to getting-started
     - Use the `splash` template for the landing page
     - Include navigation links to main documentation sections
     - _Requirements: 3.1, 3.2, 3.3_
-  - [ ] 2.2 Create the Getting Started guide at `src/content/docs/getting-started.md`
+
+  - [x] 2.2 Create the Getting Started guide at `src/content/docs/getting-started.md`
     - Write starter content with headings, paragraphs, and code blocks demonstrating proper Markdown formatting
     - Include frontmatter with `title` field
     - _Requirements: 7.1, 7.3, 2.4_
-  - [ ] 2.3 Create additional documentation pages for content organization
+
+  - [x] 2.3 Create additional documentation pages for content organization
     - Create `src/content/docs/guides/creating-assets.md` as an example guide page
+
     - Include frontmatter with `title` field and sample content with headings, paragraphs, and code blocks
     - _Requirements: 7.2, 7.3, 2.1, 2.2_
 
-- [ ] 3. Configure Netlify deployment
-  - [ ] 3.1 Create `netlify.toml` configuration file
+- [x] 3. Configure Netlify deployment
+  - [x] 3.1 Create `netlify.toml` configuration file
     - Set build command to `npm run build`
     - Set publish directory to `dist`
     - _Requirements: 8.1, 8.2, 8.3_
-  - [ ] 3.2 Verify build output is Netlify-compatible
+
+  - [x] 3.2 Verify build output is Netlify-compatible
     - Run `npm run build` and confirm `dist/` contains static HTML files
     - _Requirements: 8.2, 1.3_
 

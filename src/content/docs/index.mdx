@@ -8,3 +8,20 @@ hero:
       link: /getting-started/
       icon: right-arrow
 ---
+
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+## Explore the Docs
+
+<CardGrid>
+  <LinkCard
+    title="Getting Started"
+    href="/getting-started/"
+    description="Learn how to set up DreamSprite and create your first project."
+  />
+  <LinkCard
+    title="Creating Assets"
+    href="/guides/creating-assets/"
+    description="A guide to creating art and assets with DreamSprite."
+  />
+</CardGrid>
