@@ -12,6 +12,11 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css"],
       head: [
         {
+          tag: "script",
+          content:
+            "document.documentElement.dataset.theme = 'dark'; localStorage.setItem('starlight-theme', 'dark');",
+        },
+        {
           tag: "link",
           attrs: {
             rel: "preconnect",
