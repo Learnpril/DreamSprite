@@ -302,8 +302,24 @@ pre,
   opacity: 0.6;
 }
 
+/* Override Starlight splash flex-column for footer content */
+.dreamsprite-footer,
+.dreamsprite-footer .footer-credits,
+.dreamsprite-footer .footer-social {
+  align-items: center;
+}
+
+.dreamsprite-footer .footer-credits p {
+  display: inline;
+}
+
 .dreamsprite-footer .footer-credits {
   margin-bottom: 0.75rem;
+  display: block;
+}
+
+.dreamsprite-footer .footer-credits * {
+  display: inline;
 }
 
 .dreamsprite-footer .footer-credits a {

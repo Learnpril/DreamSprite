@@ -40,10 +40,12 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        { label: "Getting Started", slug: "getting-started" },
+        { label: "Getting Started with ComfyUI", slug: "getting-started" },
         {
           label: "Guides",
-          items: [{ label: "Creating Assets", slug: "guides/creating-assets" }],
+          items: [
+            { label: "Checkpoint Models", slug: "guides/creating-assets" },
+          ],
         },
       ],
     }),
