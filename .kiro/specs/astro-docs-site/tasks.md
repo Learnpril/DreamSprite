@@ -48,12 +48,13 @@
 - [x] 4. Checkpoint
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 5. Set up testing infrastructure and write tests
-  - [ ] 5.1 Set up Vitest and fast-check
+- [-] 5. Set up testing infrastructure and write tests
+  - [x] 5.1 Set up Vitest and fast-check
     - Install `vitest` and `fast-check` as dev dependencies
     - Create `vitest.config.ts` if needed
     - Create `tests/` directory
     - _Requirements: 1.2_
+
   - [ ]\* 5.2 Write unit tests for project structure
     - Verify `astro.config.mjs` exists and contains Starlight config
     - Verify `package.json` contains required dependencies
@@ -78,5 +79,5 @@
     - **Validates: Requirements 6.1**
     - Generate random valid frontmatter objects, verify they pass Starlight's content collection schema validation
 
-- [ ] 6. Final Checkpoint
+- [x] 6. Final Checkpoint
   - Ensure all tests pass, ask the user if questions arise.
