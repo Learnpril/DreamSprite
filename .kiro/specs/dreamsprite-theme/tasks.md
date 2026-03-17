@@ -64,10 +64,10 @@
     - Add constellation decorative pattern to footer via CSS
     - _Requirements: 10.1, 10.2, 7.3_
 
-- [ ] 5. Checkpoint
+- [x] 5. Checkpoint
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 6. Write tests for theme structure and build output
+- [x] 6. Write tests for theme structure and build output
   - [ ]\* 6.1 Write unit tests for theme file structure
     - Verify `src/styles/custom.css` exists and contains expected CSS custom properties
     - Verify `astro.config.mjs` references the custom CSS file and Google Fonts
@@ -75,10 +75,10 @@
     - Verify callout styling with gold border, image styling, sidebar overrides
     - _Requirements: 1.1–1.5, 2.1–2.4, 4.1, 5.1, 6.1, 9.1, 9.2, 11.1_
 
-  - [ ]\* 6.2 Write unit tests for landing page and build output
+  - [x] 6.2 Write unit tests for landing page and build output
     - Verify hero tagline "Dreaming up game art with AI" in index.mdx
     - Verify build output contains themed HTML
     - _Requirements: 3.1, 3.2, 3.3_
 
-- [ ] 7. Final Checkpoint
+- [x] 7. Final Checkpoint
   - Ensure all tests pass, ask the user if questions arise.
