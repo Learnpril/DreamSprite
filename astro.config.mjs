@@ -5,6 +5,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "DreamSprite",
+      logo: {
+        src: "./src/assets/logo.png",
+        alt: "DreamSprite Logo",
+      },
       customCss: ["./src/styles/custom.css"],
       head: [
         {

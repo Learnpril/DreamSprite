@@ -153,6 +153,18 @@ button:hover,
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
 }
 
+/* Logo sizing and position — move logo to right of title text */
+.site-title {
+  flex-direction: row-reverse;
+  gap: 0.25rem;
+}
+
+.site-title img {
+  height: 4rem;
+  width: auto;
+  margin-top: 0.8rem;
+}
+
 nav.sidebar a {
   color: #b0b0d8;
   transition: color 0.3s ease;
@@ -213,21 +225,23 @@ pre,
 }
 
 /* --------------------------------------------------------------------------
-   10. Hero Section — Dreamy Gradient Background (Requirements 3.1, 3.2, 3.3)
+   10. Hero Section — Dreamy Background Image (Requirements 3.1, 3.2, 3.3)
    -------------------------------------------------------------------------- */
 .hero {
-  background: linear-gradient(
-    135deg,
-    #0f0f1a 0%,
-    #1a1a2e 30%,
-    #2a1a3e 60%,
-    #1a1a2e 80%,
-    #0f0f1a 100%
-  );
+  position: relative;
   border-radius: 12px;
   padding: 2rem;
-  position: relative;
   overflow: hidden;
+  background-image: url('/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Ensure text content sits above the background */
+.hero .sl-flex {
+  position: relative;
+  z-index: 1;
 }
 
 .hero::before {
