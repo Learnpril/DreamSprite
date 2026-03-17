@@ -3,9 +3,21 @@
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   1. CSS Custom Property Overrides (Starlight palette)
+   0. Force Dark Mode Only — hide theme toggle, lock to dark
    -------------------------------------------------------------------------- */
 :root {
+  color-scheme: dark;
+}
+
+starlight-theme-select {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   1. CSS Custom Property Overrides (Starlight palette)
+   -------------------------------------------------------------------------- */
+:root,
+:root[data-theme='light'] {
   --sl-color-accent-low: #1a1a2e;
   --sl-color-accent: #c9a0dc;
   --sl-color-accent-high: #f0e6f6;
@@ -17,7 +29,6 @@
   --sl-color-gray-5: #1a1a2e;
   --sl-color-gray-6: #0f0f1a;
   --sl-color-black: #0a0a12;
-
 
   /* Typography custom properties */
   --sl-font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
