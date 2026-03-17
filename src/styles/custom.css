@@ -266,6 +266,18 @@ pre,
 }
 
 /* Hero CTA button — lavender-purple accent */
+
+/* Mobile: left-align hero text so the bird is visible */
+@media (max-width: 768px) {
+  .hero .sl-flex {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .hero {
+    background-position: 30% center;
+  }
+}
+
 .hero a[class*="primary"] {
   background-color: #c9a0dc;
   color: #0f0f1a;
