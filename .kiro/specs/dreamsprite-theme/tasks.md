@@ -1,7 +1,7 @@
 # Implementation Plan
 
-- [ ] 1. Create custom CSS file with DreamSprite color palette and typography
-  - [ ] 1.1 Create `src/styles/custom.css` with Starlight CSS custom property overrides
+- [x] 1. Create custom CSS file with DreamSprite color palette and typography
+  - [x] 1.1 Create `src/styles/custom.css` with Starlight CSS custom property overrides
     - Define `:root` block overriding `--sl-color-accent-low`, `--sl-color-accent-high`, `--sl-color-white`, `--sl-color-gray-1` through `--sl-color-gray-6`, `--sl-color-black` with the DreamSprite palette
     - Set `--sl-color-accent-low: #1A1A2E`, `--sl-color-accent-high: #C9A0DC`, `--sl-color-white: #E0E0FF`, `--sl-color-gray-6: #0F0F1A`, etc.
     - Add font-family overrides: `--sl-font` for Inter/system sans, `--sl-font-mono` for JetBrains Mono, and heading font-family for Playfair Display
@@ -18,8 +18,8 @@
     - **Validates: Requirements 11.2, 11.3**
     - Generate random valid CSS custom property names and values, serialize to string, parse back, and verify equivalence
 
-- [ ] 2. Update Astro config with custom CSS and Google Fonts
-  - [ ] 2.1 Update `astro.config.mjs` to register custom CSS and load fonts
+- [x] 2. Update Astro config with custom CSS and Google Fonts
+  - [x] 2.1 Update `astro.config.mjs` to register custom CSS and load fonts
     - Add `customCss: ['./src/styles/custom.css']` to Starlight config
     - Add `head` entries for Google Fonts preconnect and stylesheet links (Playfair Display 400/700, JetBrains Mono 400/500)
     - Keep existing sidebar configuration intact
