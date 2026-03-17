@@ -153,16 +153,14 @@ button:hover,
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
 }
 
-/* Logo sizing and position — move logo to right of title text */
+/* Logo sizing and position — left of title, 2x size */
 .site-title {
-  flex-direction: row-reverse;
-  gap: 0.25rem;
+  gap: 0.1rem;
 }
 
 .site-title img {
   height: 4rem;
   width: auto;
-  margin-top: 0.8rem;
 }
 
 nav.sidebar a {
