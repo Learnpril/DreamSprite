@@ -39,15 +39,7 @@ export default defineConfig({
           },
         },
       ],
-      sidebar: [
-        { label: "Getting Started with ComfyUI", slug: "getting-started" },
-        {
-          label: "Guides",
-          items: [
-            { label: "Checkpoint Models", slug: "guides/creating-assets" },
-          ],
-        },
-      ],
+      sidebar: [],
     }),
   ],
 });
