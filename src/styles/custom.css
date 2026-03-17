@@ -362,3 +362,16 @@ pre,
   color: #d4b5e6;
   text-shadow: 0 0 8px rgba(201, 160, 220, 0.5);
 }
+
+/* --------------------------------------------------------------------------
+   12. Site-Wide Disclaimer Footer
+   -------------------------------------------------------------------------- */
+.ds-site-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #8888aa;
+  font-style: italic;
+  border-top: 1px solid #1a1a2e;
+  margin-top: 2rem;
+}

@@ -38,6 +38,11 @@ export default defineConfig({
             href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap",
           },
         },
+        {
+          tag: "script",
+          content:
+            "document.addEventListener('DOMContentLoaded', function() { var f = document.createElement('div'); f.className = 'ds-site-footer'; f.textContent = \"By the time I've uploaded this information, it's already outdated. Do your own research!\"; document.body.appendChild(f); });",
+        },
       ],
       sidebar: [],
     }),
