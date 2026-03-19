@@ -57,4 +57,4 @@ First 10-20 gens: Just experiment! Don't overthink - Midjourney shines with desc
 - **On Discord**: Right-click image -> Save Image As. Use personal server: Invite Midjourney bot to your own Discord server for private gens (no public gallery). Star important messages or use threads.
 - Tip: Always save prompts/settings (Midjourney shows them on hover/click). Copy good ones to Obsidian for reuse - that's how I build consistent styles.
 
-Midjourney's perfect for rapid ideation - crank out concepts in minutes, then refine in ComfyUI with ControlNet/LoRAs. Once you're comfy, move to the [ComfyUI Setup](/guides/comfyui-setup/) guide for unlimited local power.
+Midjourney's perfect for rapid ideation - crank out concepts in minutes, then refine in ComfyUI with ControlNet/LoRAs (We'll get to what those are in a bit!). Once you're comfy, move to the [ComfyUI Setup](/guides/comfyui-setup/) guide for unlimited local power.
