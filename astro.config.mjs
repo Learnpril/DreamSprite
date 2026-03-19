@@ -68,6 +68,8 @@ export default defineConfig({
             { label: "LoRAs", slug: "guides/loras" },
             { label: "VAE", slug: "guides/vae" },
             { label: "ControlNet", slug: "guides/controlnet" },
+            { label: "Samplers & Scheduling", slug: "guides/samplers" },
+            { label: "Upscaling & Refinement", slug: "guides/upscaling" },
           ],
         },
         {

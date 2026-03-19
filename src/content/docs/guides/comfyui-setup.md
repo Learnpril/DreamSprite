@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComfyUI Setup
 description: Portable install (easiest), manual option, first test workflow, Manager setup, local vs cloud comparison, and tips for smooth sailing.
 ---
