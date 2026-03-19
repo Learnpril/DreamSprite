@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prompting
 description: Write prompts that actually work - weights, styles, negatives, and reverse-engineering tips.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Maximize Your Notetaking
 description: Markdown, Obsidian, blogging your workflows - document your experiments.
 ---

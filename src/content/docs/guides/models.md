@@ -1,4 +1,4 @@
-﻿---
+---
 title: Models
 description: Checkpoints are the soul - anime, realistic, furry, 3D/CGI styles and where to grab them.
 ---

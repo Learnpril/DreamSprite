@@ -1,4 +1,4 @@
-﻿---
+---
 title: ComfyUI 2D Guide
 description: Nodes intro, text-to-image, image-to-image, LoRA setup - the full 2D workflow.
 ---

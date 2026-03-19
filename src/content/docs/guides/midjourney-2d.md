@@ -1,4 +1,4 @@
-﻿---
+---
 title: Midjourney 2D
 description: Realism styles, anime/Niji mode, animation tricks - frame consistency & motion prompts.
 ---

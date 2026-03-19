@@ -1,4 +1,4 @@
-﻿---
+---
 title: Embeddings
 description: Textual inversions & concepts - quick style boosters without full LoRAs.
 ---

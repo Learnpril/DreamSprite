@@ -1,4 +1,4 @@
-﻿---
+---
 title: Blender Setup
 description: Importing .obj/.glb, UV editing, rigging basics, and export tips.
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Luddite Guide (Non-AI Art)
 description: Balance AI with traditional skills - real media, digital art, training your own style.
 ---
